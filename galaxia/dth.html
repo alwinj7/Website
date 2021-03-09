@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 600px;
+  margin-top: -20px;
+
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+#dth{
+background-color:grey;
+width: 600px;
+height: 70px;
+text-align: center;
+padding-top: 25px;
+}
+#namel{
+background-color:grey;
+text-align: center;
+width: 98px;
+}
+#id{
+background-color:grey;
+text-align: center;
+width: 98px;
+}
+#amount{
+background-color:grey;
+text-align: center;
+width: 98px;
+}
+#eml{
+background-color:grey;
+text-align: center;
+width: 98px;
+}
+#operator{
+background-color:grey;
+text-align: center;
+width: 98px;
+}
+.push{
+  padding-top: 50px;
+}
+</style>
+</head>
+<body>
+  <h1><marquee direction="right"><font color="blue">Bill Payments</font></marquee></h1>
+<div class="push">
+<h2 id="dth">DTH Recharge</h2>
+
+<div class="container">
+<form action="mailto:18CS1H1022@kristujayanti.com" method="post" enctype="text/plain">
+  <div class="row">
+      <div class="col-25">
+        <label id="namel" for="name">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label id="id" for="sid">Subscriber Id</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="sid" name="sid" placeholder="Your Subscriber Id..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label id="amount" for="sid">Amount</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="amt" name="amt" placeholder="Enter the Amount..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label id="eml" for="sid">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Enter Your email..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label id="operator" for="country">Operator</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country" placeholder="Select from the list">
+        
+          <option value="australia">Airtel</option>
+          <option value="canada">Jio</option>
+          <option value="usa">Vodafone</option>
+                    <option value="usa">bsnl</option>
+                              <option value="usa">Idea</option>
+                                        <option value="usa">Tata Docomo</option>
+           
+        </select>
+      </div>
+    </div>
+    
+    <div class="row">
+      <input type="submit" value="Proceed Now">
+    </div>
+  </form>
+</div>
+</div>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+.row2{
+  float: left;
+  margin-top: -380px;
+  padding-left: 630px;
+  
+}
+.column {
+  float: left;
+  width: 30%;
+  height: 180px;
+  padding: 5px;
+  border-style: ridge;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#airtel{
+  width: 200px;
+}
+#vodafone{
+  width: 200px;
+}
+</style>
+<div class="row2">
+  <div class="column">
+    <a href="https://www.mobikwik.com/dth-recharge"><img id="airtel" src="airteldth.jpg" alt="Snow" style="width:100%"></a>
+  </div>
+  <div class="column">
+   <a href="https://www.mobikwik.com/dth-recharge"> <img id="vodafone" src="vodafonedth.jpg" alt="Forest" style="width:100%"></a>
+  </div>
+  <div class="column">
+   <a href="https://www.mobikwik.com/dth-recharge"> <img id="jio" src="jiodth.jpg" alt="Mountains" style="width:100%"></a>
+  </div>
+  <div class="column">
+    <a href="https://www.mobikwik.com/dth-recharge"> <img id="tatasky" src="tatasky.jpg" alt="Snow" style="width:100%"></a>
+  </div>
+  <div class="column">
+   <a href="https://www.mobikwik.com/dth-recharge"> <img id="reliance" src="reliance.jpg" alt="Forest" style="width:100%"></a>
+  </div>
+  <div class="column">
+   <a href="https://www.mobikwik.com/dth-recharge"> <img id="videocon"src="videcon.jpg" alt="Mountains" style="width:100%"></a>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,2061 @@
+<html>
+<head>
+  <script src="https://kit.fontawesome.com/71d77014eb.js" crossorigin="anonymous"></script>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<script src="https://kit.fontawesome.com/7241d511b7.js" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<body>
+	
+<div class="nav-bar">
+  <h1 id="he1"><font color="blue">E-Wallet</font></h1>
+	<div class="heading">
+		<a href="#homepic" class="w3-bar-item-w3-button-w3-right1" id="a1"><font color="blue"> Home</font></a>
+		<a href="#walletlogo" class="w3-bar-item-w3-button-w3-right2" id="a2"><font color="blue">Services</a></font>
+		<a href="#w3-container1" class="w3-bar-item-w3-button-w3-right3" id="a3"><font color="blue">Contact Us</a></font>
+				<a href="#" class="w3-bar-item-w3-button-w3-right4"id="a4"><font color="blue">About</a></font>
+</div>
+</div>
+<style type="text/css">
+#he1{
+  margin-bottom: -9px;
+    margin-top: -10px;
+  padding-left: 40px;
+  height: 10px;
+
+}
+.nav-bar{
+}
+.heading{
+text-align: right;
+text-decoration: none;
+background-color: lightgrey;
+width: 1340px;
+height: 100px;
+margin-top: 10px;
+}
+
+</style>
+
+
+<div>
+<img id="homepic" src="homepage.jpg" alt="E-Wallet pic">
+</div>
+<style type="text/css">
+
+#homepic{
+  width: 1345px;
+  height: 600px;
+  background-position: center;
+}
+
+</style>
+
+
+
+
+
+<div id="our-service">
+  <center><font color="Black" ><u>Our Services</u></font></a></center>
+  <div id="services"></div>
+<div class="column1" style="background-color:white;">
+    <h2>Recharge</h2><a href="C:\Users\Alwin J\Desktop\recharge\recharge.html">
+  <img id="rechargelogo" src="rechargelogo.jpg"></a>
+  </div>
+  <div class="column2" style="background-color:white;">
+    <h2>Bill Payment</h2><a href="C:\Users\Alwin J\Desktop\recharge\dth.html">
+    <img id="dthlogo" src="dthlogo.jpg"></a>
+  </div>
+  <div class="column3" style="background-color:white;">
+    <h2>Wallet</h2>
+    <img id="walletlogo"src="walletlogo.jpg">
+  </div>
+</div>
+
+
+
+
+<div class="gc">
+  <div class="gi1">
+  <img  src="paytm.jpg" alt="paytm" width="700px" height="400px" padding-left="30px">
+  </div>
+  <div class="gi1">
+  <img id="pi2" src="zomato.jpg" alt="zomato" width="600px" height="400px">
+  </div>
+</div>
+  
+
+<style type="">
+/*.gc{
+  background-color: white;
+padding-top: 30px;
+padding-left: 30px;
+
+}
+*/
+.gc {
+  background-color: white;
+  padding-top: 30px;
+  padding-left: 30px;
+  height: 450px;
+}
+.gi1{
+float: left;
+background-color: white;
+}
+#pi2{
+  padding-left: 20px;
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.mySlides1 {display:none}
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<div class="w3-container1">
+  <i id="i1" class="fas fa-headphones"></i> <font size="4px">Gadget Zone</font>
+</div>
+
+<div class="w3-content w3-display-container" style="max-width:1300px">
+<div class="mySlides1">
+  <a href="https://www.flipkart.com/grand-gadget-days-store">
+  <img id="g1" src="g1.jpg" style="width:30%" height="250px;">
+  <img id="g2" src="g2.jpg" style="width:30%" height="250px;">
+  <img id="g3" src="g3.jpg" style="width:30%" height="250px;">
+  </div>
+  <div class="mySlides1">
+  <img id="g4" src="g4.jpg" style="width:30%" height="250px;">
+  <img id="g5" src="g5.jpg" style="width:30%" height="250px;">
+  <img id="g6" src="g6.jpg" style="width:30%" height="250px;"></a>
+  </div>
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%" >
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    
+  </div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+
+<style type="text/css">
+#i1{
+  padding-top: 30px;
+  width: 30px;
+  padding-left: 10px;
+}
+.mySlides1{
+  padding-top: 40px;
+  padding-left: 70px;
+
+}
+.w3-container1{
+  padding-left: 30px;
+  
+}
+#g1{
+  border-radius: 10px;
+}
+#g2{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#g3{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#g4{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#g5{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#g6{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.mySlides2 {display:none}
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<div class="w3-container1">
+  <i id="i2" class="fas fa-tshirt"></i> <font size="4px">Fashion Offer</font>
+</div>
+
+<div class="w3-content w3-display-container" style="max-width:1300px">
+<div class="mySlides2">
+  <a href="https://www.myntra.com/?utm_source=bing&utm_medium=cpc&utm_campaign=Bing_Brand_Exact_Desktop&utm_source=bing">
+  <img id="f1" src="f1.jpg" style="width:30%" height="300px;">
+  <img id="f2" src="f2.jpg" style="width:30%" height="300px;">
+  <img id="f3" src="f3.jpg" style="width:30%" height="300px;">
+  </div>
+  <div class="mySlides2">
+  <img id="f4" src="f4.jpg" style="width:30%" height="300px;">
+  <img id="f5" src="f5.jpg" style="width:30%" height="300px;">
+  <img id="f6" src="f6.jpg" style="width:30%" height="300px;"></a>
+  </div>
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%" >
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    
+  </div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+<style type="text/css">
+#i2{
+  padding-top: 30px;
+  width: 25px;
+}
+
+.mySlides2{
+  padding-top: 40px;
+  padding-left: 70px;
+
+}
+.w3-container1{
+  padding-top: 40px;
+  padding-left: 40px;
+  
+}
+#f1{
+  border-radius: 10px;
+}
+#f2{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#f3{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#f4{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#f5{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#f6{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.mySlides3 {display:none}
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<div class="w3-container3">
+  <i  id="i1" class="fas fa-shopping-cart" ></i> <font size="4px">Grocery Store</font>
+</div>
+
+<div class="w3-content w3-display-container" style="max-width:1300px">
+<div class="mySlides3">
+  <a href="https://www.amazon.in/grocery/s?k=grocery">
+  <img id="gry1" src="gry1.jpg" style="width:30%" height="250px;">
+  <img id="gry2" src="gry2.jpg" style="width:30%" height="250px;">
+  <img id="gry3" src="gry3.jpg" style="width:30%" height="250px;">
+  </div>
+  <div class="mySlides3">
+  <img id="gry4" src="gry4.jpg" style="width:30%" height="250px;">
+  <img id="gry5" src="gry5.jpg" style="width:30%" height="250px;">
+  <img id="gry6" src="gry6.jpg" style="width:30%" height="250px;"></a>
+  </div>
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%" >
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    
+  </div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides3");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+<style type="text/css">
+#i1{
+  padding-top: 30px;
+  width: 25px;
+}
+.mySlides3{
+  padding-top: 30px;
+  padding-left: 70px;
+}
+.w3-container3{
+  padding-top: 30px;
+  padding-left: 40px;
+}
+#gry1{
+  border-radius: 10px;
+}
+#gry2{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#gry3{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#gry4{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#gry5{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#gry6{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.mySlides4 {display:none}
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<div class="w3-container4">
+  <i id="i4" class="fas fa-bus"></i> <font size="4px">Travel Zone</font>
+</div>
+
+<div class="w3-content w3-display-container" style="max-width:1300px">
+<div class="mySlides4">
+  <a href="https://paytm.com/hotels">
+  <img id="t1" src="t1.jpg" style="width:30%" height="250px;">
+  <img id="t2" src="t2.jpg" style="width:30%" height="250px;">
+  <img id="t3" src="t3.jpg" style="width:30%" height="250px;">
+  </div>
+  <div class="mySlides4">
+  <img id="t4" src="t4.jpg" style="width:30%" height="250px;">
+  <img id="t5" src="t5.jpg" style="width:30%" height="250px;">
+  <img id="t6" src="t6.jpg" style="width:30%" height="250px;"></a>
+  </div>
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%" >
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    
+  </div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides4");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+<style type="text/css">
+#i4{
+  padding-top: 30px;
+  width: 25px;
+}
+.mySlides4{
+  padding-top: 30px;
+  padding-left: 70px;
+}
+.w3-container4{
+  padding-top: 50px;
+  padding-left: 40px;
+}
+#t1{
+  border-radius: 10px;
+}
+#t2{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#t3{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#t4{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#t5{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#t6{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+
+body{
+  background-color: lightgrey;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.mySlides5 {display:none}
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<div class="w3-container5">
+<i id="i5" class="fas fa-video"></i><font size="4px">Entertainment</font>
+</div>
+
+<div class="w3-content w3-display-container" style="max-width:1300px">
+<div class="mySlides5">
+  <a href="https://in.bookmyshow.com/cinemas-list/pvr/all-regions/pvr/">
+  <img id="e1" src="e1.jpg" style="width:30%" height="250px;">
+  <img id="e2" src="e2.jpg" style="width:30%" height="250px;">
+  <img id="e3" src="e3.jpg" style="width:30%" height="250px;">
+  </div>
+  <div class="mySlides5">
+  <img id="e4" src="e4.jpg" style="width:30%" height="250px;">
+  <img id="e5" src="e5.jpg" style="width:30%" height="250px;">
+  <img id="e6" src="e6.jpg" style="width:30%" height="250px;"></a>
+  </div>
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%" >
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    
+  </div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides5");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+<style type="text/css">
+#i5{
+  padding-top: 30px;
+  width: 25px;
+}
+.mySlides5{
+  padding-top: 30px;
+  padding-left: 70px;
+}
+.w3-container5{
+  padding-top: 50px;
+  padding-left: 40px;
+}
+#e1{
+  border-radius: 10px;
+}
+#e2{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#e3{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#e4{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#e5{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#e6{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.mySlides6 {display:none}
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<div class="w3-container6">
+<i id="i6" class="fas fa-blender-phone"></i><font size="4px">Home Appliances</font></div>
+
+<div class="w3-content w3-display-container" style="max-width:1300px">
+<div class="mySlides6">
+  <a href="https://www.amazon.in/kitchen-home-appliances/b?node=4951860031">
+  <img id="h1" src="h1.jpg" style="width:30%" height="250px;">
+  <img id="h2" src="h2.jpg" style="width:30%" height="250px;">
+  <img id="h3" src="h3.jpg" style="width:30%" height="250px;">
+  </div>
+  <div class="mySlides6">
+  <img id="h4" src="h4.jpg" style="width:30%" height="250px;">
+  <img id="h5" src="h5.jpg" style="width:30%" height="250px;">
+  <img id="h6" src="h6.jpg" style="width:30%" height="250px;"></a>
+  </div>
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%" >
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    
+  </div>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides6");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+<style type="text/css">
+#i6{
+  padding-top: 30px;
+  width: 25px;
+  padding-left: 5spx;
+}
+.mySlides6{
+  padding-top: 30px;
+padding-left: 70px;
+}
+.w3-container6{
+  padding-top: 50px;
+  padding-left: 40px;
+}
+#h1{
+  border-radius: 10px;
+}
+#h2{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#h3{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#h4{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#h5{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#h6{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.mySlides7 {display:none}
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<div class="w3-container7">
+<i id="i7" class="fas fa-puzzle-piece"></i><font size="4px">Play And Win</font>
+</div>
+
+<div class="w3-content w3-display-container" style="max-width:1300px">
+<div class="mySlides7">
+  <a href="https://poki.com/">
+  <img id="gm1" src="gm1.jpg" style="width:30%" height="300px;">
+  <img  id="gm2" src="gm2.jpg" style="width:30%" height="300px;">
+  <img  id="gm3" src="gm3.jpg" style="width:30%" height="300px;">
+  </div>
+  <div class="mySlides7">
+  <img  id="gm4" src="gm4.jpg" style="width:30%" height="300px;">
+  <img id="gm5" src="gm5.jpg" style="width:30%" height="300px;">
+  <img id="gm6" src="gm6.jpg" style="width:30%" height="300px;"></a>
+  </div>
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%" >
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides7");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+<style type="text/css">
+#i7{
+  padding-top: 30px;
+  width: 25px;
+}
+.mySlides7{
+  padding-top: 30px;
+  padding-left: 70px;
+}
+.w3-container7{
+  padding-top: 50px;
+  padding-left: 40px;
+}
+#gm1{
+  border-radius: 10px;
+}
+#gm2{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#gm3{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#gm4{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#gm5{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#gm6{
+  border-radius: 10px;
+  padding-left: 5px;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.containermail {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  padding-top: 50px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+#fname{
+  border-radius: 5px;
+}
+#lname{
+  border-radius: 5px;
+}
+#email{
+  border-radius: 5px;
+}
+#subject{
+  border-radius: 5px;
+}
+#mail{
+  padding-top: 30px;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div class="containermail">
+  <div style="text-align:center">
+    <h2><u>Contact Us</u></h2>
+    <p><h3><marquee direction="right"> leave us a message:</marquee></h3></p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img  id="mail" src="mail.jpg" style="width:100%" height="450px">
+    </div>
+    <div class="column">
+      <form action="mailto:18CS1H1022@kristujayanti.com" method="post" enctype="text/plain">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter Your Email..">
+                <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<section class="sec-4">
+  <center><h1><font color="grey">Contact Us</font></h1>
+  <h2>
+    alwinj712@gmail.com    ||     alwinj812@gmail.com
+  </h2></center>
+  <center>
+      <section class="sec-4-1a">
+          <img src="https://cdn0.iconfinder.com/data/icons/email-29/64/x-07-512.png"/>
+              </section>
+
+
+    <section class="sec-4-1b">
+      <form name="contactform" class="cntform">
+      <input type="name" id="n1" placeholder="Name" name="name"/><br>
+      <input type="email" id="n2" placeholder="Email" name="email"/><br>
+      <input type="number" id="n3" width="70px" placeholder="Mobile Number" name="mobile"/><br>
+      <textarea name="message" id="n4" rows="5" id="txtarea" cols="20" onclick="document.getElementById('txtarea').innerText='';">
+Message..
+      </textarea>
+      <button class="btn2"><span>Submit</span></button>
+    </center>
+    </form>
+</section>
+    
+  </center>
+  <br>
+</section>
+
+
+<style type="text/css">
+.sec-4{
+  background-color: white;
+  height: 650px;
+}
+
+
+.sec-4-1a{
+  padding-top: 30px;
+  width: 200px;
+  height: 1px;
+  padding-right: 1200px;
+}
+.sec-4-1b{
+ padding-left: 700px;
+ background-color: grey;
+}
+
+
+</style>
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.containercus {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 80 30px 0;
+  width:1000px;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+</style>
+
+<div class="containercus">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">Login with Social Media or Manually</h2>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="#" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+      </div>
+      
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div id="container"></div>
+<div id="box-1">
+<img id="pic1" src="th.jpg">
+</div>
+
+<!--
+<div class="picture-section">
+  <div class="w1">
+    <img src="paytm.jpg">
+</div>
+<div class="w2">
+<img src="img3.jpg" style="width:50%">
+</div>
+<div class="w3">
+<img src="zomato.jpg" style="width:50%">
+</div>
+</div>
+
+<!--<div class="ps1">
+  <div class="wt">
+    <div class="w1">
+      <img src="paytm.jpg" style="width:50%">
+     </div>
+  </div>
+
+  <div class="wt">
+    <div class="w2">
+      <img src="img3.jpg" style="width:50%">
+    </div>
+  </div>
+
+  <div class="wt">
+    <div class="w3">
+      <img src="zomato.jpg" style="width:50%">
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div class="flxbox">
+<div id="flx1">
+</div>	
+<div id="flx2">
+</div>	
+<div id="flx3">
+</div>	
+<div id="flx4">
+</div>	
+<div id="flx5">
+</div>	
+<div id="flx6">
+</div>	
+<div id="flx7">
+</div>	
+</div>
+-->
+
+<!--
+
+<div id="container"></div>
+<i class="fas fa-headphones-alt" id="gadget">Gadget Zone</i>
+<!--
+<div id="box-1">
+<img id="pic1" src="th.jpg">
+</div>
+<div id="box-2">
+<img id="pic1" src="th.jpg">
+</div>
+  <div id="box-3">
+<img id="pic1" src="th.jpg">
+</div>
+<div id="box-4">
+<img id="pic1" src="th.jpg">
+</div>
+<div id="box-5">
+<img id="pic1" src="th.jpg">
+</div>
+<div id="box-6">
+<img id="pic1" src="th.jpg">
+</div>
+<div id="box-7">
+<img id="pic1" src="th.jpg">
+</div>
+-->
+<!--
+<div id="flex1">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+<div class="row">
+<div class="column-3"><img src="g1.jpg" class="d-block w-100" alt="Laptop Charger">
+<h4>Laptop Charger</h4>
+</div>
+<div class="column-3"><img src="g2.jpg" class="d-block w-100" alt="Laptop Battery">
+<h4>Laptop Batery</h4>
+</div>
+<div class="column-3"><img src="g3.jpg" class="d-block w-100" alt="Charger">
+<h4>PhoneCharger</h4>
+</div>
+
+
+
+
+<!-- 
+  Slider 2 
+<div class="carouse1-item"></div>
+<div class="row">
+<div class="column-3"><img src="g4.jpg" class="d-block w-100" alt="Laptop Charger">
+<h4>Inl Jet Printer</h4>
+</div>
+<div class="column-3"><img src="g5.jpg" class="d-block w-100" alt="Laptop Battery">
+<h4>CCTV</h4>
+
+</div>
+<div class="column-3"><img src="g6.jpg" class="d-block w-100" alt="Charger">
+<h4>Audio Jack</h4>
+</div>
+</div>
+
+
+
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+</html>
+<style type="text/css">
+#a1{
+  padding-right: 40px;
+font-size: 25px;
+}
+#a2{
+  padding-right: 30px;
+font-size: 25px;
+
+}
+#a3{
+  padding-right: 20px;
+font-size: 25px;
+
+}
+#a4{
+  padding-right: 10px;
+font-size: 25px;
+
+
+}
+#our-service{
+    padding-top: 50px;
+  text-decoration: none;
+  font-size: 40px;
+  background-color: lightgrey;
+  height: 500px;
+}
+#services{
+  padding-top: 50px;
+}
+#rechargelogo{
+  width: 250px;
+  height:170px;
+}
+#dthlogo{
+  width: 250px;
+  height: 170px;
+}
+#walletlogo{
+  width: 250px;
+  height: 170px;
+}
+.column1 {
+  float: left;
+  width: 300px;
+  margin-left: 120px;
+  height: 250px; /* Should be removed. Only for demonstration */
+  text-align: center;
+   border-radius: 10px;
+   border:solid none;
+   border-left:solid 10px dodgerblue;
+   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.column1:hover{
+  background-color:grey;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.14), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.column2 {
+  float: left;
+  width: 300px;
+  height: 250px; /* Should be removed. Only for demonstration */
+  text-align: center;
+  margin-left:120px;
+   border-radius: 10px;
+    border:solid none;
+border-left:solid 10px dodgerblue;
+ box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.column2:hover{
+  background-color:grey;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.14), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.column3 {
+  float: left;
+  width: 300px;
+  height: 250px; /* Should be removed. Only for demonstration */
+  text-align: center;
+  margin-left:120px;
+   border-radius: 10px;
+    border:solid none;
+border-left:solid 10px dodgerblue;
+ box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.column3:hover{
+  background-color:grey;
+box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.14), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+#box-1 {
+    background-color: white;
+
+    height: 300px;
+    width: 1350px;
+    
+  }
+
+
+
+
+
+
+
+
+/*.w3-third{
+	padding-top:20px;
+}
+
+
+.w3-bar-item-w3-button-w3-right1{
+	text-decoration: none;
+	font-size: 20px;
+}
+.w3-bar-item-w3-button-w3-right2{
+	text-decoration: none;
+	font-size: 20px;
+}
+.w3-bar-item-w3-button-w3-right3{
+	text-decoration: none;
+	font-size: 20px;
+}
+.w3-bar-item-w3-button-w3-right4{
+	text-decoration: none;
+	font-size: 20px;
+}
+*/
+
+
+
+
+/*
+.flxbox{
+	background-color: lightgrey;
+	margin-top: 50px;
+}
+#flx1{
+	width:1340px;
+	height: 200px;
+	margin:40 -5px;
+}
+#flx2{
+	width:1340px;
+	height: 200px;
+margin:40 -5px;
+}
+#flx3{
+	margin-top: 10px;
+	width:1340px;
+	height: 200px;
+}
+#flx4{
+	margin-top: 10px;
+	width:1340px;
+	height: 200px;
+}
+#flx5{
+	margin-top: 10px;
+	width:1340px;
+	height: 200px;
+}
+#flx6{
+	margin-top: 10px;
+	width:1340px;
+	height: 200px;
+}
+
+#flx7{
+	margin-top: 10px;
+	width:1340px;
+	height: 200px;
+}
+*/
+/*
+#gadget{
+  margin-top:-10px;
+}
+#flex1{
+  background-color: lightgrey;
+}
+
+/*#container{
+	margin-top: 50px;
+}
+#pic1{
+	padding: 50  10 70 50px;
+	width: 300px;
+}
+#box-1 {
+    background-color: lightgrey;
+
+    height: 300px;
+    width: 1350px;
+    
+  }
+
+  #box-2 {
+    background-color: lightgrey;
+
+    height: 300px;
+    width: 1350px;
+     margin:40 -5px;
+  }
+  #box-3 {
+    background-color: lightgrey;
+
+    height: 300px;
+    width: 1350px;
+     margin:40 -5px;
+  }
+    #box-4 {
+    background-color: lightgrey;
+
+    height: 300px;
+    width: 1350px;
+     margin:40 -5px;
+  }
+    #box-5 {
+    background-color: lightgrey;
+
+    height: 300px;
+    width: 1350px;
+     margin:40 -5px;
+  }
+    #box-6 {
+    background-color: lightgrey;
+
+    height: 300px;
+    width: 1350px;
+     margin:40 -5px;
+  }
+    #box-7 {
+    background-color: lightgrey;
+
+    height: 300px;
+    width: 1350px;
+     margin:40 -5px;
+  }
+*/
+body{
+  background-color: lightgrey;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="AboutUs"><h2><center>About Us</center></h2>
+  <div class="logo">
+    <div class="w3-xxxlarge" id="facebook"> <i class="fab fa-facebook-square"></i>
+    </div>
+<div class="w3-xxxlarge" id="google"><i class="fab fa-google-plus-g"></i>
+    </div>
+<div class="w3-xxxlarge" id="linkedin"> <i class="fab fa-linkedin"></i>
+    </div>
+<div class="w3-xxxlarge" id="telegram"> <i class="fab fa-telegram"></i>
+    </div>
+<div class="w3-xxxlarge" id="instagram"> <i class="fab fa-instagram"></i>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<style>
+.AboutUs{
+  padding-top: 40px;
+  height: 300px;
+}
+.logo{
+  padding-top: 90px;
+}
+#facebook{
+  width="200px";
+  float: left;
+  padding-left:400px;
+}
+#google{
+  width="200px";
+  float: left;
+padding-left: 70px;
+}
+#linkedin{
+  width="200px";
+  float: left;
+padding-left: 70px;
+}
+#telegram{
+  width="200px";
+  float: left;
+  padding-left: 70px;
+}
+#instagram{
+  width="200px";
+float: left;
+padding-left: 70px;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
